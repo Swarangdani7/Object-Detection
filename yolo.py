@@ -84,6 +84,7 @@ def DrawBBox(img, classes, colors, boxes, confs, class_ids):
     if max_frames % 10 == 0:
         if texts:
             print(texts)
+            ''' Uncomment below lines to enable text to speech'''
             # desc = ', '.join(texts)
             # filename = "voice.mp3"
             # tts = gTTS(desc, lang="en")
